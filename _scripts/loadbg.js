@@ -3,7 +3,7 @@ const bingBG = document.querySelector('#bg');
 const getBackground = async (el, display) => {
   el.style.opacity = 0;
   el.style.display = display || "block";
-  el.style.backgroundImage = `url(../bing-wallpaper/)`;
+  el.style.backgroundImage = `url(${site_url}/../bing-wallpaper/)`;
 
   (function fade() {
     var val = parseFloat(el.style.opacity);
