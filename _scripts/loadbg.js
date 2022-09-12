@@ -1,6 +1,6 @@
-let el = document.querySelector('#bg');
+const bingBG = document.querySelector('#bg');
 
-let getBackground = async (el, display) => {
+const getBackground = async (el, display) => {
   el.style.opacity = 0;
   el.style.display = display || "block";
   el.style.backgroundImage = `url(../bing-wallpaper/)`;
@@ -17,4 +17,4 @@ let getBackground = async (el, display) => {
   })();
 }
 
-getBackground(el);
+getBackground(bingBG);

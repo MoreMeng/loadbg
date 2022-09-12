@@ -1,6 +1,6 @@
 {
   "name": "loadbg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "load bing wallpaper",
   "main": "index.js",
   "author": "Thanikul Sriuthis <moremeng@dv4.biz>",
